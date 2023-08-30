@@ -1,0 +1,141 @@
+.container__contact {
+  font-family: $ligth-font-family;
+  font-weight: $ligth-font-weigth;
+}
+
+.contact__title {
+  font-size: 34px;
+  color: $title-color;
+  text-align: center;
+
+  @media screen and (min-width: $desktop) {
+    font-size: $desctop-font-size;
+    text-align: start;
+    margin: 0 0 22px 0;
+  }
+}
+
+.contact__form {
+  margin: 0 auto 0 auto;
+  width: 280px;
+
+  @media screen and (min-width: $desktop) {
+    width: 391px;
+  }
+}
+
+.contact__label {
+  position: relative;
+  font-weight: $font-weight-400;
+}
+
+.contact__input {
+  padding: 14px 21px;
+  width: 270px;
+  height: 46px;
+  background-color: $form-bg-color;
+  margin-bottom: 10px;
+
+  border: none;
+  outline: none;
+
+  @media screen and (min-width: $desktop) {
+    width: 391px;
+  }
+}
+
+.contact__textarea {
+  height: 147px;
+}
+
+.contact__input__text__star {
+  color: $form-color-star;
+}
+
+.contact__input__text {
+  position: absolute;
+  left: 8%;
+  top: 3%;
+}
+
+.contact__input__text--number {
+  @media screen and (min-width: $desktop) {
+    left: -360px;
+    top: 55px;
+  }
+}
+
+.contact__input__textarea {
+  position: absolute;
+  left: 8%;
+  top: -130px;
+}
+
+.contact__input__textarea--text {
+  left: -360px;
+  top: 55px;
+}
+
+.contact__form__text {
+  margin-bottom: 21px;
+  font-weight: $font-weight-400;
+  font-size: 14px;
+  line-height: 17.43px;
+  width: 270px;
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 30px;
+    width: 331px;
+  }
+}
+
+.contact__block {
+  display: flex;
+}
+
+.form__btn {
+  padding: 24px 48px;
+  background-color: $main-color;
+  color: $link-bg-color;
+
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: $font-weight-400;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hover-color;
+    color: black;
+    cursor: pointer;
+    transition: background-color 750ms $timing-function;
+
+    .form__bnt__arrow {
+      fill: black;
+    }
+  }
+}
+
+.form__bnt__arrow {
+  margin-left: 12px;
+  width: 18px;
+  height: 9px;
+  fill: #fff;
+}
+
+.contact__image {
+  display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+    height: 369px;
+    width: 448px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: block;
+    margin-left: 30px;
+    width: 749px;
+  }
+}

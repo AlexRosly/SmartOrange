@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartOrangeTest</title>
+    <link href="fonts/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav__header">
+          <a href="#" class="nav__link">
+            <img src="./images/logo-main.jpg" alt="logo" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__item__link nav__item__link--current"
+                >Главная</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__item__link">Галерея</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__item__link">Проекты</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__item__link">Сертификаты</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__item__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="menu__button-open js-open-menu">
+          <svg
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- hero -->
+      <section>
+        <div class="container container__hero">
+          <div class="hero__container">
+            <h1 class="hero__title">
+              Project<span class="hero__title hero__title--decoration"
+                >Home</span
+              >
+            </h1>
+            <div class="hero__block__number-btn">
+              <div>
+                <button class="hero__btn">
+                  <svg class="hero__btn__svg">
+                    <use href="./images/sprite.svg#icon-arrowLeft"></use>
+                  </svg>
+                </button>
+                <button class="hero__btn">
+                  <svg class="hero__btn__svg">
+                    <use href="./images/sprite.svg#icon-arrowRight"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="hero__number">
+                <span class="hero__number--num hero__number--line">01</span>
+                <span class="hero__number--num">02</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__block">
+            <img src="./images/building.jpg" alt="" />
+            <a class="hero__link" href="#">
+              <span>взглянуть</span>
+              <svg class="hero__arrow">
+                <use href="./images/sprite.svg#icon-arrowRight"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <section class="container container__about">
+        <div class="about__container">
+          <h2 class="about__title">О компании</h2>
+          <p class="about__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <a class="about__link" href="#">
+            <span>Читать</span>
+            <svg class="about__arrow">
+              <use href="./images/sprite.svg#icon-arrowRight"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="about__image--container">
+          <img
+            src="./images/about-1.jpg"
+            alt=""
+            class="about__image about__image__order__one"
+          />
+          <img
+            src="./images/about-3.jpg"
+            alt=""
+            class="about__image about__image__order__two"
+          />
+          <img
+            src="./images/about-2.jpg"
+            alt=""
+            class="about__image about__image__order__three"
+          />
+        </div>
+      </section>
+      <!-- main task -->
+      <section class="container container__main-task">
+        <h2 class="main-task__title">Основные задачи</h2>
+        <ul class="main-task__list">
+          <li class="main-task__item">
+            <svg class="main-task__icon-one">
+              <use href="./images/sprite.svg#icon-one"></use>
+            </svg>
+            <p class="main-task__text">
+              Создание комфортных условий и повышение качества обслуживания
+              клиентов
+            </p>
+          </li>
+          <li class="main-task__item">
+            <svg class="main-task__icon-two">
+              <use href="./images/sprite.svg#icon-two"></use>
+            </svg>
+            <p class="main-task__text main-task__text--mod">
+              Постоянно совершенствовать качество предоставляемых услуг путем
+              обучения персонала, закупки нового оборудования и усиленной
+              рекламы на рынке
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- projects -->
+      <section class="container container__projects">
+        <h2 class="projects__title">Наши проекты</h2>
+        <div class="project__block--img">
+          <div class="project__block--img__one">
+            <div class="project__block__link">
+              <h3 class="project__block__link--title">Досуговый центр</h3>
+              <a class="project__block__link--link" href="#">
+                <span class="project__block__link--text">Подробнее</span>
+                <svg class="project__arrow">
+                  <use href="./images/sprite.svg#icon-arrowRight"></use>
+                </svg>
+              </a>
+            </div>
+            <img src="./images/proj-2.jpg" alt="" class="project__img--one" />
+          </div>
+          <div class="project__block--img__two">
+            <img
+              src="./images/proj-3.jpg"
+              alt=""
+              class="project__block__img project__block__img--one"
+            />
+            <img
+              src="./images/proj-4.jpg"
+              alt=""
+              class="project__block__img project__block__img--two"
+            />
+            <img
+              src="./images/proj-5.jpg"
+              alt=""
+              class="project__block__img project__block__img--three"
+            />
+          </div>
+        </div>
+        <a class="project__link" href="#">
+          <span>Все проекты</span>
+          <svg class="project__arrow">
+            <use href="./images/sprite.svg#icon-arrowRight"></use>
+          </svg>
+        </a>
+      </section>
+      <!-- contact -->
+      <section class="container container__contact">
+        <h2 class="contact__title">Связаться с нами</h2>
+        <div class="contact__block">
+          <div class=" ">
+            <form class="contact__form">
+              <label class="contact__label">
+                <input
+                  type="text"
+                  placeholder=" "
+                  class="contact__input"
+                /><span class="contact__input__text">Имя</span>
+              </label>
+              <label class="contact__label">
+                <input type="tel" placeholder=" " class="contact__input" /><span
+                  class="contact__input__text contact__input__text--number"
+                  >Номер телефона<span class="contact__input__text__star"
+                    >*</span
+                  ></span
+                >
+              </label>
+              <label class="contact__label">
+                <input type="email" placeholder=" " class="contact__input" />
+                <span class="contact__input__text contact__input__text--number"
+                  >E-mail<span class="contact__input__text__star">*</span></span
+                >
+              </label>
+              <label class="contact__label">
+                <input
+                  type="text"
+                  placeholder=" "
+                  class="contact__input"
+                /><span class="contact__input__text "
+                  >Интересующий товар/услуга</span
+                >
+              </label>
+              <label class="contact__label">
+                <textarea
+                  placeholder=" "
+                  rows="5"
+                  class="contact__input contact__textarea"
+                ></textarea
+                ><span class="contact__input__textarea contact__input__textarea--text"
+                  >Сообщение<span class="contact__input__text__star"
+                    >*</span
+                  ></span
+                >
+              </label>
+              <p class="contact__form__text">
+                Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+              </p>
+            </form>
+            <button class="form__btn">
+              Отправить
+              <svg class="form__bnt__arrow">
+                <use href="./images/sprite.svg#icon-arrowRight"></use>
+              </svg>
+            </button>
+          </div>
+          <img
+            class="contact__image"
+            src="./images/phone.jpg"
+            alt="men speeking on phone"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container container__footer">
+        <a class="footer__logo__link">
+          <img src="./images/Group 11 1.svg" alt="logo" />
+        </a>
+        <div class="footer__block footer__block__info">
+          <h3 class="footer__title">Информация</h3>
+          <ul class="footer__info__list">
+            <li class="footer__info__item">
+              <a class="footer__info__item--link">Главная</a>
+            </li>
+            <li class="footer__info__item">
+              <a class="footer__info__item--link">Галерея</a>
+            </li>
+            <li class="footer__info__item">
+              <a class="footer__info__item--link">Проекты</a>
+            </li>
+            <li class="footer__info__item">
+              <a class="footer__info__item--link">Сертификаты</a>
+            </li>
+            <li class="footer__info__item">
+              <a class="footer__info__item--link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__block footer__block__contact">
+          <h3 class="footer__title">Контакты</h3>
+          <ul class="footer__contact__list">
+            <li class="footer__contact__item">
+              <svg class="footer__contact__item--location">
+                <use href="./images/sprite.svg#icon-location"></use>
+              </svg>
+              <span class="footer__contact__item--text"
+                >100000, Республика Казахстан,</span></br> г. Караганда, ул. Телевизионная
+                10</span>
+            </li>
+            <li class="footer__contact__item">
+              <a
+                href="tel:+38 (000) 000 00 00"
+                class="footer__contact__item--link"
+              >
+                <svg class="footer__contact__item--phone">
+                  <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+                +38 (000) 000 00 00
+              </a>
+            </li>
+            <li class="footer__contact__item">
+              <a href="mail@gmail.com" class="footer__contact__item--link">
+                <svg class="footer__contact__item--mail">
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+                mail@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__block footer__block__social">
+          <h3 class="footer__title">Социальные сети</h3>
+          <ul class="footer__social__list">
+            <li class="footer__social__item">
+              <a href="#">
+                <svg class="footer__social__fb">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social__item">
+              <a href="#">
+                <svg class="footer__social__tw">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social__item">
+              <a href="#">
+                <svg class="footer__social__in">
+                  <use href="./images/sprite.svg#icon-linkindeen"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social__item">
+              <a href="#">
+                <svg class="footer__social__pi">
+                  <use href="./images/sprite.svg#icon-pininterest"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="copyright__text">
+          <script>
+            document.write(
+              "&#169;" +
+                new Date().getFullYear() +
+                " " +
+                "Digital Project. Все права защищены"
+            );
+          </script>
+        </p>
+      </div>
+    </footer>
+    <!-- mobile menu -->
+    <div class="menu-container js-menu-container">
+      <button type="button" class="menu__button-close js-close-menu">
+        <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+          <use class="icon-cross" href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </button>
+      <ul class="mobile__menu__list">
+        <li class="mobile__menu__item">
+          <a href="#" class="mobile__menu__item--link">Главная</a>
+        </li>
+        <li class="mobile__menu__item">
+          <a href="#" class="mobile__menu__item--link">Галерея</a>
+        </li>
+        <li class="mobile__menu__item">
+          <a href="#" class="mobile__menu__item--link">Проекты</a>
+        </li>
+        <li class="mobile__menu__item">
+          <a href="#" class="mobile__menu__item--link">Сертификаты</a>
+        </li>
+        <li class="mobile__menu__item">
+          <a href="#" class="mobile__menu__item--link">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>

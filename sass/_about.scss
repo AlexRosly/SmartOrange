@@ -1,0 +1,142 @@
+.container__about {
+  background-color: $second-bg-color;
+  font-family: $ligth-font-family;
+  font-weight: $ligth-font-weigth;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 30px 70px 30px 100px;
+    margin-bottom: 150px;
+  }
+}
+
+.about__container {
+  @media screen and (min-width: $tablet) {
+    width: 260px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 400px;
+    // margin-left: 30px;
+  }
+}
+
+.about__title {
+  font-size: $mobile-font-size;
+  color: $title-color;
+  text-align: center;
+
+  @media screen and (min-width: $desktop) {
+    margin: 0 0 20px 0;
+    font-size: $desctop-font-size;
+    line-height: $desctop-line-heigth;
+    text-align: start;
+  }
+}
+
+.about__text {
+  font-size: $text-font-size;
+}
+
+.about__link {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: $link-bg-color;
+
+  width: 222px;
+  height: 71px;
+  font-size: 12px;
+  color: $main-color;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+    transition: background-color 750ms $timing-function;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: 20px 0 0 0;
+  }
+}
+
+.about__arrow {
+  margin-left: 15px;
+  width: 18px;
+  height: 9px;
+}
+
+.about__image--container {
+  margin: 0 auto 0 auto;
+
+  @media screen and (min-width: $tablet) {
+    position: relative;
+    display: flex;
+    max-width: 500px;
+    height: 435px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: 0;
+    max-width: 600px;
+    height: 375px;
+  }
+}
+
+.about__image {
+  margin: 0 auto 0 auto;
+  width: 270px;
+  height: 140px;
+}
+
+.about__image__order__one {
+  @media screen and (min-width: $tablet) {
+    height: 205px;
+    width: 240px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-right: 30px;
+    height: 265px;
+    width: 270px;
+  }
+}
+.about__image__order__two {
+  @media screen and (min-width: $tablet) {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 230px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 270px;
+    bottom: -16%;
+  }
+}
+
+.about__image__order__three {
+  @media screen and (min-width: $tablet) {
+    height: 285px;
+    width: 240px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: 30px 30px 0 0;
+    height: 345px;
+    width: 270px;
+  }
+}
